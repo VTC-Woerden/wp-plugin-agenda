@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+
+.vtc__break--line {
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+.vtc__break--line:last-child {
+	border-bottom: none;
+}
+
+.vtc__event {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	margin: 0.5rem 0px 5px 0px;
+	padding: 1rem 0px 1rem 1rem;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	transition: 100ms;
+}
+
+.vtc__event:hover {
+	text-decoration: none;
+	background-color: #f2f2f2;
+}
+
+.vtc__event:last-child {
+	margin-bottom: 0rem;
+	border-bottom: none;
+}
+
+.vtc__event--date {
+	background-color: #00378a;
+	border-radius: 0.6rem;
+	padding: 0.3rem;
+	margin-right: 1rem;
+	border-color: #b2b2b2 !important;
+	overflow: hidden;
+	text-align: center;
+	height: fit-content;
+}
+
+.vtc__event--month {
+	width: 4rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	line-height: 2.65rem;
+}
+
+.vtc__event--day {
+	font-size: 1.4rem;
+	font-weight: bold;
+	background: white;
+	border-radius: 6px;
+	color: black;
+	line-height: 2.65rem;
+}
+
+.vtc__event--divider {
+	background: gray;
+	border-radius: 6px;
+	margin-right: 1rem;
+	width: 1rem;
+	height: 0.2rem;
+	align-self: center;
+}
+
+.vtc__event--content {
+	flex: 1;
+	max-height: 8.5rem;
+	overflow: hidden;
+	font-size: 1.4rem;
+}
+
+.vtc__event--content h2 {
+	font-size: 1.6rem;
+	text-transform: inherit !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 1.3em !important;
+	margin: 0;
+}
+
+.vtc__event--content p {
+	margin: 0;
+}
+
+.vtc__event--content p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.month--divider {
+	margin-top: 2rem;
+}
+
+.year--divider {
+	margin-top: 4rem;
+	color: gray!important;
+}
+
+.year--divider:first-child {
+	margin-top: auto;
+}
+
+.vtc__event__title {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	margin: 0.5rem 0px 5px 0px;
+	padding: 1rem 0px 1rem 1rem;
+	text-decoration: none;
+}
+
+.vtc__event__title > h1 {
+	text-transform: unset!important;
+	margin: auto;
+}
